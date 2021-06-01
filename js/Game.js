@@ -131,7 +131,7 @@ class Game{
         game.update(2)
         textSize(30)
         text("Game Over",700,400);
-        text("Press Reset Button Below 👇 And Reload The Page To Restart",300,500)
+        text("Press Reset Button Below 👇 And Reload The Page To Restart",100,500)
         fruitGroup.get(0).velocityY=0
     }
 }
